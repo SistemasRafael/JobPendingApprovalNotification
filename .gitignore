@@ -1,0 +1,77 @@
+# =========================
+# Business Central / AL
+# =========================
+
+# Compiled extension packages
+*.app
+
+# Temporary files
+*.alcache
+*.tmp
+
+# VS Code settings (opcional si trabajas en equipo)
+.vscode/
+
+# AL extension cache
+.alpackages/
+
+# Symbols cache
+.alcache/
+
+# Build output
+output/
+bin/
+obj/
+
+# Test results
+TestResults/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (si usas tooling adicional)
+node_modules/
+
+# PowerShell artifacts
+*.ps1xml
+
+# Backup files
+*.bak
+*.backup
+
+# JetBrains Rider / IntelliJ (si applies)
+.idea/
+
+# Visual Studio (por si mezclas proyectos)
+.vs/
+
+# Azure DevOps / pipelines artifacts
+artifacts/
+
+# Local settings
+*.local.json
+
+# launch.json específico por usuario (opcional)
+.vscode/launch.json
+
+# app.json no se ignora normalmente, pero puedes excluir variaciones locales
+# app.local.json
+
+# Credential files (muy importante)
+*.pfx
+*.key
+*.cer
+
+# Docker (si usas contenedores BC)
+*.tar
+*.gz
+docker-data/
+
+# Misc
+*.cache
+*.vsix
+``
